@@ -102,13 +102,21 @@ nav{
 }
 
 .row{
+    margin: 300px 50px 0;
     background-color: rgba(200, 200, 200, .3);
+    overflow: hidden;
 }
 /* 죄측 */
 .flex-Box{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.sub_box{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #fff;
 }
 
 
@@ -120,7 +128,8 @@ section{
     font-size: 30px;
     padding: 0;
     color: #fff;
-    border: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
     }
 .srpbox span{
     font-size: 50px;

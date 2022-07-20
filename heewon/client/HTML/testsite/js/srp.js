@@ -8,16 +8,22 @@ function srp(e){
     let str, img, img1;
     let me = ['가위', '바위', '보'];
     let c = Math.floor(Math.random()*3);
-    
+    let Achievement = document.getElementById("Achievement");
     rsp(e, c);
 
     if (e == c) {
         str = "무승부!";
+        Achievement.style.color = "white";
+        Achievement.innerHTML += "무 ";
     }else if((e == 0 && c == 2)||(e == 1 && c == 0)||(e == 2 && c == 1)){
         str = "이겼다!";
+        Achievement.style.color = "blue";
+        Achievement.innerHTML += "승 ";
         win++;
     }else{
         str = "졌다..!";
+        Achievement.style.color = "red";
+        Achievement.innerHTML += "패 ";
         lose++;
     }
     total++;
@@ -42,15 +48,17 @@ function srp(e){
         h1[0].style.color= "white";
         h1[0].classList.add("animate__flip");
         h1[1].classList.add("animate__shakeY");
+        document.getElementById("game_win").innerHTML = "50번 이겨보자 (완료)"
         for(i = 0;i < h1.length; i++){
             h1[i].load;
         }
     }
 }
 
+let menu = ["짜장면", "돈까스", "된장국", "김치찌개", "회덮밥", "라면", "햄버거","볶음밥", "국수", "국밥"];
+document.getElementById("menu").innerHTML = menu;
 
 function lunch(){
-    let menu = ["짜장면", "돈까스", "된장국", "김치찌개", "회덮밥", "라면", "햄버거","볶음밥", "국수", "국밥"];
     let menuNum = Math.floor(Math.random()*menu.length);
     document.getElementById("lunch").innerHTML = menu[menuNum]+" 먹자!";
 }

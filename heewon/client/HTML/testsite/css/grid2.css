@@ -6,7 +6,6 @@ div{
     min-height: 50px;
 }
 header, aside, main, footer{
-    border: 1px solid #999;
     min-height: 100px;
 }
 .inbox{
