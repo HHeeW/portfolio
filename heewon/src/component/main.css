@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    height: 3000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nameBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name1{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    margin: 0 auto;
+    text-shadow: -3px 3px 5px rgba(230, 230, 130, 0.5);
+}
+.name2{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    margin: 0 auto;
+    text-shadow: -3px 3px 5px rgba(230, 230, 130, 0.5);
+}
+
+.Sub1{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+@media (max-width: 500px) {
+    .name{
+        font-size: 20vw;
+    }
+}
