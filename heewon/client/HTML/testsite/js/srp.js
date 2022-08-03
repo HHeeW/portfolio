@@ -5,25 +5,28 @@ let win = 0;
 let lose = 0;
 let sumWin, sumLose;
 function srp(e){
-    let str, img, img1;
-    let me = ['가위', '바위', '보'];
+    let str;
     let c = Math.floor(Math.random()*3);
     let Achievement = document.getElementById("Achievement");
-    rsp(e, c);
-
+    rsp(e, c, win);
+    switch(e){
+        case 0:
+            Achievement.innerHTML += "가위, ";
+            break;
+        case 1:
+            Achievement.innerHTML += "바위, ";
+            break;
+        case 2:
+            Achievement.innerHTML += "보, ";
+            break;
+    }
     if (e == c) {
         str = "무승부!";
-        Achievement.style.color = "white";
-        Achievement.innerHTML += "무 ";
     }else if((e == 0 && c == 2)||(e == 1 && c == 0)||(e == 2 && c == 1)){
         str = "이겼다!";
-        Achievement.style.color = "blue";
-        Achievement.innerHTML += "승 ";
         win++;
     }else{
         str = "졌다..!";
-        Achievement.style.color = "red";
-        Achievement.innerHTML += "패 ";
         lose++;
     }
     total++;

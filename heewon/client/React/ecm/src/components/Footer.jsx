@@ -29,8 +29,8 @@ const Footer = () => {
             </ColSub>
             <ColSub>
                <p>주소: 경기도 김포시 장기동 장기로 111</p>
-               <p>개인정보책임자: 비밀요원 scr@myshop.com</p>
-               <p>대표 : 홍길동</p>
+               <p>개인정보책임자: 황희원 scr@myshop.com</p>
+               <p>대표 : 황희원</p>
                <p>전화 : 0588 - 0154</p>
             </ColSub>
             <ColSub>

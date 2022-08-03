@@ -102,11 +102,14 @@ nav{
 }
 
 .row{
-    margin: 300px 50px 0;
+    margin: 100px 50px 0;
     background-color: rgba(200, 200, 200, .3);
     overflow: hidden;
 }
 /* 죄측 */
+#menu{
+    padding: 0 30px;
+}
 .flex-Box{
     display: flex;
     justify-content: center;

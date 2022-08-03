@@ -5,6 +5,7 @@ body{
     color:#333;
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 a, a:hover{
     text-decoration: none;
@@ -75,6 +76,10 @@ a.radius-white-line:hover >.material-icons {
 }
 .logo{
     width: 70%;
+}
+.logo_text{
+    font-weight:bold;
+    font-size: 26px;
 }
 .topnavbox{
     display: flex;
@@ -623,12 +628,12 @@ a.imgs{
 .magazinebean{
     position: absolute;
     top: 0;
-    right: 0%;
+    left: 60%;
 }
 .magazinebean-text-box{
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -655,25 +660,25 @@ a.imgs{
 }
 .storebean img:nth-child(1){
     top: 30%;
-    left: 40%;
+    left: 35%;
     z-index: 5;
 }
 .storebean img:nth-child(2){
     top: 0;
-    left: 30%;
+    left: 25%;
 }
 .storebean img:nth-child(3){
     top: -60px;
-    left: 45%;
+    left: 40%;
 }
 .storebean img:nth-child(4){
     bottom: 0;
-    right: 25%;
+    right: 20%;
 }
 .storebean-text-box{
     position: absolute;
     top: 30%;
-    right: 30%;
+    right: 25%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;

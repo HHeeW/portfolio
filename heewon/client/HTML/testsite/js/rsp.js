@@ -1,4 +1,4 @@
-function rsp(e, c){
+function rsp(e, c, win){
     if(win >= 50){
         switch(e){
             case 0:
