@@ -1,5 +1,6 @@
 import './main.css'
 import Sub1 from './Sub1';
+import Sub2 from './Sub2';
 import Background from './Wave/Background';
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
         </div>
       </div>
       <Sub1/>
+      <Sub2/>
     </div>
   )
 }

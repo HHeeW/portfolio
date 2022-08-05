@@ -11,7 +11,7 @@ const App = () => {
       // window.scrollTo(0, 0);
     };
     AOS.init({
-      duration: "1000",
+      duration: "500",
       easing: "ease-in-out"
     });
     AOS.refresh(); 

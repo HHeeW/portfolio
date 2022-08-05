@@ -1,0 +1,53 @@
+/* 서브페이지 1 */
+.Sub1{
+    width: 70vw;
+    min-height: 70vh;
+    padding: 2%;
+    border: 6px double rgb(250, 250, 250);
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.subox{
+    width: 40%;
+    height: 20vh;
+    border: 1px solid rgb(250, 250, 250);
+    border-radius: 10px;
+}
+.skillImgBox{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
+.skillImg{
+    position:absolute;
+    width: 15%;
+}
+.skillImg:nth-child(1){
+    left: 0;
+}
+.skillImg:nth-child(2){
+    left: 40%;
+}
+.skillImg:nth-child(3){
+    right: 0;
+}
+.skillImg:hover{
+    width: 20%;
+}
+
+@media (max-width: 500px) {
+    .Sub1{
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .subox{
+        width: 100%;
+        margin: 10px ;
+    }
+    .skillImg{
+        width: 15%;
+    }
+}
