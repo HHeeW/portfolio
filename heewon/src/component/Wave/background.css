@@ -5,7 +5,7 @@ canvas{
 #Background{
   position: fixed;
   z-index: -1;
-  background-color: rgb(50, 50, 70);
+  background-color: rgb(30, 30, 50);
 }
 .Moon{
   width: 10vw;
@@ -140,4 +140,12 @@ canvas{
   animation-delay: -10.5s;
   animation-duration: 19s;
   opacity: 0.4;
+}
+
+
+@media (max-width:500px) {
+  .Moon{
+    width: 30vw;
+    height: 30vw;
+  }
 }

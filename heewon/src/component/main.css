@@ -20,7 +20,7 @@
 /* 메인 부분 */
 .Box{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@
 /* 서브페이지 1 */
 .Sub1{
     width: 70%;
-    height: 75%;
+    min-height: 75vh;
     padding: 2%;
     border: 6px double rgb(250, 250, 250);
     border-radius: 30px;
@@ -49,24 +49,45 @@
 }
 .subox{
     width: 40%;
-    height: 40%;
+    height: 20vh;
     border: 1px solid rgb(250, 250, 250);
     border-radius: 10px;
 }
+.skillImgBox{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+}
 .skillImg{
+    position:absolute;
     width: 15%;
+}
+.skillImg:nth-child(1){
+    left: 0;
+}
+.skillImg:nth-child(2){
+    left: 40%;
+}
+.skillImg:nth-child(3){
+    right: 0;
+}
+.skillImg:hover{
+    width: 20%;
 }
 
 @media (max-width: 500px) {
-    .Moon{
-        width: 25vw;
-        height: 25vw;
-        top: 5vw;
-        right: 5vw;
-        box-shadow: inset 0px 0px 40px rgb(230, 230, 130),
-                    -10px 10px 10px rgba(150, 150, 50, 0.5);
-    }
     .name{
-        font-size: 20vw;
+        font-size: 10vw;
     }
+    .Sub1{
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .subox{
+        width: 100%;
+        margin: 10px ;
+    }
+    .skillImg{
+        width: 15%;
+}
 }

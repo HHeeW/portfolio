@@ -18,7 +18,6 @@ const Background = () => {
         <div class="bubble bubble--10"></div>
         <div class="bubble bubble--11"></div>
         <div class="bubble bubble--12"></div>
-
     </div>
   )
 }
