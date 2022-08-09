@@ -1,3 +1,6 @@
+import "swiper/css";
+import "swiper/css/pagination";
+
 import './main.css'
 import Sub1 from './Sub1';
 import Sub2 from './Sub2';

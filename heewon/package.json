@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "aos": "^3.0.0-beta.6",
+    "concurrently": "^7.3.0",
     "jquery": "^3.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,9 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "movie": "cd client/React/CHK_Movie && yarn start",
+    "dev": "concurrently --kill-others-on-fail \"yarn start\" \"yarn movie\" "
   },
   "eslintConfig": {
     "extends": [
