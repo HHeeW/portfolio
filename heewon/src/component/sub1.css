@@ -1,7 +1,7 @@
 /* 서브페이지 1 */
 .Sub1{
-    width: 70vw;
-    min-height: 70vh;
+    width: 70%;
+    min-height: 70%;
     padding: 2%;
     border: 6px double rgb(250, 250, 250);
     border-radius: 30px;
@@ -12,18 +12,20 @@
 }
 .subox{
     width: 40%;
-    height: 20vh;
+    height: 20%;
     border: 1px solid rgb(250, 250, 250);
     border-radius: 10px;
 }
 .skillImgBox{
     width: 80%;
+    height: 100%;
     margin: 0 auto;
-    margin-top: 10px;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .skillImg{
-    position:absolute;
+    min-width: 50px;
     width: 15%;
 }
 .skillImg:nth-child(1){
@@ -35,9 +37,6 @@
 .skillImg:nth-child(3){
     right: 0;
 }
-.skillImg:hover{
-    width: 20%;
-}
 
 @media (max-width: 500px) {
     .Sub1{
@@ -45,9 +44,10 @@
     }
     .subox{
         width: 100%;
-        margin: 10px ;
+        height: 13%;
+        margin: 10px;
     }
     .skillImg{
-        width: 15%;
+        width: 20%;
     }
 }

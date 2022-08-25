@@ -11,12 +11,13 @@ const App = () => {
       // window.scrollTo(0, 0);
     };
     AOS.init({
+      offset:'0',
       duration: "500",
       easing: "ease-in-out"
     });
     AOS.refresh(); 
   },[])
-  
+
   return (
     <div>
       <Main/>

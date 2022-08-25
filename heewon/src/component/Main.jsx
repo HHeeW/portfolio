@@ -1,25 +1,44 @@
 import "swiper/css";
 import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel, Pagination } from "swiper";
 
-import './main.css'
+import Background from './Wave/Background';
+import Sub0 from "./Sub0";
 import Sub1 from './Sub1';
 import Sub2 from './Sub2';
-import Background from './Wave/Background';
+import Sub3 from "./Sub3";
+import { useState } from "react";
 
 const Main = () => {
+  const [swiperRef, setSwiperRef] = useState(null);
+  const [active, setActive] = useState(null);
+  const ActiveIndex=()=>{
+    setActive(swiperRef.activeIndex)
+  }
   return (
     <div className='container'>
       <Background/>
       <div className="Box">
-        <div data-aos="fade-up-right">
-          <h1 className='name'>안녕하세요,</h1>
-        </div>
-        <div data-aos="fade-up-left">
-          <h1 className='name'>저는 황희원입니다.</h1>
-        </div>
+        <Swiper onScroll={()=>ActiveIndex()}
+          onSwiper={setSwiperRef}
+          direction={"vertical"}
+          slidesPerView={1}
+          spaceBetween={50}
+          keyboard={{
+            enabled: true,
+          }}
+          mousewheel={true}
+          modules={[Mousewheel, Pagination]}
+          className="mySwiper"
+          
+        >
+          <SwiperSlide><Sub0 active={active} /></SwiperSlide>
+          <SwiperSlide><Sub1 active={active} /></SwiperSlide>
+          <SwiperSlide><Sub2 active={active} /></SwiperSlide>
+          <SwiperSlide><Sub3 active={active} /></SwiperSlide>
+        </Swiper>
       </div>
-      <Sub1/>
-      <Sub2/>
     </div>
   )
 }
