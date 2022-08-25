@@ -1,0 +1,10 @@
+.HomeContainer{
+    background: linear-gradient(rgba(59, 170, 187, 70), #fff);
+    height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+    .HomeContainer{ 
+        background: linear-gradient(rgba(59, 123, 187, 0.8), #fff);
+    }
+}

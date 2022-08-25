@@ -1,0 +1,50 @@
+.HeaderBox{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: rgba(117, 162, 207, 1);
+    backdrop-filter: blur(5px);
+}
+.Header{
+    max-width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#HeaderText{
+    color: #fff;
+    margin: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#HeaderText:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #fff;  
+    transform: scaleX(0);  
+    transition: transform 200ms ease-in-out;
+}
+#HeaderText:hover:not(.Active):after { transform: scaleX(1); }
+
+
+.Active{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .HeaderBox{
+        background-color: rgba(59, 123, 187, 0.7);
+    }
+    .Header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #HeaderText{
+        font-size: 1.5rem;
+        margin: 0 10px;
+    }
+}
