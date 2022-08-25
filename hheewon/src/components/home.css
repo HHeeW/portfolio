@@ -1,7 +1,51 @@
 .HomeContainer{
     background: linear-gradient(rgba(59, 170, 187, 70), #fff);
-    height: 100vh;
+    height: 2000px;
+    overflow: hidden;
+    -ms-overflow-style: none;
+ }
+ 
+#city{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+    font-size: 1.5rem;
 }
+#IconBox{
+    position: absolute;
+    top: 0vh;
+    right: 3vw;
+    overflow: hidden;
+}
+#nowtemp{
+    position: absolute;
+    top: 5vh;
+    right: 1vw;
+    font-size: 2rem;
+}
+#icon{
+    width: 15vw;
+    height: 15vw;
+    transform: scale(1.5);
+}
+.WellcomBox{
+    width: 80vw;
+    height: 90vh;
+    position: relative;
+}
+.HomeText{
+    font-size: 6rem;
+    position: absolute;
+}
+.HomeText1{
+    top: 25vh;
+    left: 15vw;
+}
+.HomeText2{
+    top: 35vh;
+    right: 15vw;
+}
+
 
 @media screen and (max-width: 500px) {
     .HomeContainer{ 

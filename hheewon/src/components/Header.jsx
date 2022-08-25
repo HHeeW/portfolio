@@ -10,7 +10,7 @@ const Header = () => {
     })
 
   return (
-    <div className='HeaderBox'>
+    <div className='HeaderBox' data-aos="fade-down">
         <div className='Header'>
             <p id='HeaderText' className='Active'>Home</p>
             <p id='HeaderText'>Team</p>

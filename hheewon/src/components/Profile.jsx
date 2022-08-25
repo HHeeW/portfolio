@@ -1,8 +1,17 @@
 import React from 'react'
 import './profile.css'
+import $ from "jquery";
 const Profile = () => {
+
+    $(document).on('mouseover', '#Name', ()=>{
+        $('#Name').text('HwangHeeWon')
+    })
+    $(document).on('mouseleave', '#Name', ()=>{
+        $('#Name').text('황희원')
+    })
+
   return (
-    <div className='ProfileBox'>
+    <div className='ProfileBox' data-aos="fade-right">
         <div className='PhotoBox'>
             <div className='Photo'>
                 <img src="./img/HwangHeeWon.jpg" alt="HwangHeeWon" />
@@ -10,7 +19,7 @@ const Profile = () => {
         </div>
         <div className='MyInfo mb-5'>
             <div>
-                <p>황희원</p>
+                <p id='Name'>황희원</p>
                 <div>경기도 김포시</div>
                 <div>99.01.25</div>
             </div>
