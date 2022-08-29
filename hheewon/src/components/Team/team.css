@@ -1,6 +1,5 @@
 .TeamContainer{
-    width: 80vw;
-    margin: 200px 0;
+    margin: 200px 100px;
     color: #000;
 }
 .TeamContainer h1{
@@ -44,9 +43,33 @@
 
 .TeamTextBox{
     width: 30vw;
+    margin: 0 auto;
 }
 .TeamText{
     font-size: 1.5rem;
     word-break: keep-all;
     white-space: pre-line;
+}
+
+@media screen and (max-width:500px) {
+    .TeamBox{
+        flex-direction: column;
+    }
+    .TeamSwiper{
+        width: 70vw;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .TeamSwiper img{
+        max-height: 60vh;
+    }
+    .TeamTextBox{
+        width: 70vw;
+        margin-top: 50px;
+    }
+    .TeamText{
+        font-size: 1.3rem;
+        word-break: keep-all;
+        white-space: pre-line;
+    }
 }

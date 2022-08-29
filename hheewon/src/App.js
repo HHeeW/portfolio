@@ -17,7 +17,7 @@ const App = () => {
       <Header/>
       <div className='Box1'>
         <Profile/>
-        <div className='Box2' data-aos="fade-left">
+        <div className='Box2'>
           <Home/>
           <Team/>
           <WebDesgin/>

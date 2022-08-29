@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -29,8 +29,7 @@ const WebDesgin = () => {
                         delay: 1000,
                         disableOnInteraction: false,
                     }}
-                    navigation={true}
-                    modules={[Autoplay,Navigation, Pagination]}
+                    modules={[Autoplay, Pagination]}
                         className="mySwiper"
                     >
                     <SwiperSlide>

@@ -30,7 +30,6 @@
 }
 /* 텍스트 */
 .WellcomBox{
-    width: 80vw;
     height: 90vh;
     position: relative;
 }
@@ -62,5 +61,32 @@
 @media screen and (max-width: 500px) {
     .HomeContainer{ 
         background: linear-gradient(rgba(59, 123, 187, 0.8), #fff);
+        min-height: 150vh;
+    }
+    #City{
+        top: 13vh;
+        right: 10vw;
+        font-size: 1.3rem;
+    }
+    #WeatherBox{
+        top: 0vh;
+        right: 30%;
+    }
+    #Nowtemp{
+        top: 15vh;
+        right: 5vw;
+    }
+    #Weather{
+        width: 40vw;
+        height: 40vw;
+    }
+    .HomeText{
+        font-size: 10vw;
+    }
+    .HomeText1{
+        left: 10vw;
+    }
+    .HomeText2{
+        right: 10vw;
     }
 }

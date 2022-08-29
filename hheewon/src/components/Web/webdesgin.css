@@ -9,6 +9,7 @@
 .WDBrick{
     height: 80vh;
     margin: 100px;
+    margin-bottom: 0;
 }
 .WDBox{
     min-height: 50vh;
@@ -28,4 +29,13 @@
 }
 .WDSwiper img{
     max-height: 60vh;
+}
+
+@media screen and (max-width:500px) {
+    
+    .WDSwiper{
+        width: 90vw;
+        padding: 30px;
+        margin: 0 auto;
+    }
 }

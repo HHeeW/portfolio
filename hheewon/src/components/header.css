@@ -39,6 +39,7 @@
 @media screen and (max-width: 500px) {
     .HeaderBox{
         background-color: rgba(59, 123, 187, 0.7);
+        height: 6vh;
     }
     .Header{
         width: 100%;

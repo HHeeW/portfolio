@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -23,8 +23,7 @@ const Blog = () => {
                     delay: 1000,
                     disableOnInteraction: false,
                   }}
-                  navigation={true}
-                  modules={[Autoplay,Navigation, Pagination]}
+                  modules={[Autoplay, Pagination]}
                       className="mySwiper"
                 >
                     <SwiperSlide>

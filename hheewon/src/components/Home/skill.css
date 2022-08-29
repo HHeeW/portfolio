@@ -2,6 +2,9 @@
     margin-top: 100px;
     position: relative;
 }
+.SkillContainer h1{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
 /* 원 */
 .SkillBox{
     position:absolute;
@@ -34,18 +37,54 @@
 }
 .IconBox{
     position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 25%);
+    top: 15%;
+    left: 15%;
     z-index: 10;
     width: 20vw;
     height: 20vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.IconBox div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 .Icon{
     width: 4vw;
     margin: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .SkillBox{
+        width: 55vw;
+        height: 55vw;
+    }
+    .SkillBox1{
+        left: 5vw;
+    }
+    .SkillBox2{
+        right: 5vw;
+    }
+    .SkillBox3{
+        top: 20vh;
+        left: 23vw;
+    }
+    /* 기술 */
+    .IconsBox{
+        width: 55vw;
+        height: 55vw;
+    }
+    .IconBox{
+        top: 15%;
+        left: 10%;
+        width: 40vw;
+        height: 40vw;
+    }
+    .Icon{
+        width: 8vw;
+        margin: 10px;
+    }
 }
