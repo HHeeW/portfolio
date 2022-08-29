@@ -33,12 +33,12 @@ function getWeather(lat, lon, city){
     }
     
     let params = Object.keys(mydata).map(key => key + '=' + mydata[key]).join('&');
-    console.log(params);
+   //  console.log(params); 경도위도 좌표
  
     fetch(`${url1}?${params}`)
     .then( reson => reson.json())
     .then( rs => {
-       console.log(rs);
+      //  console.log(rs); 모든 데이터
        /*
         1.도시명 2.아이콘 3.현재온도 
        
@@ -48,9 +48,9 @@ function getWeather(lat, lon, city){
       //  console.log("아이콘", rs.list[0].weather[0].icon);
       //  console.log("현재온도", rs.list[0].main.temp);
 
-       document.getElementById("city").innerHTML = county(rs.city.name);
-       document.getElementById("icon").src =  "./img/"+ rs.list[0].weather[0].icon +".svg";
-       document.getElementById("nowtemp").innerHTML = Math.round(rs.list[0].main.temp) + "&deg;";
+       document.getElementById("City").innerHTML = county(rs.city.name);
+       document.getElementById("Weather").src =  "./img/weather/"+ rs.list[0].weather[0].icon +".svg";
+       document.getElementById("Nowtemp").innerHTML = Math.round(rs.list[0].main.temp) + "&deg;";
 
     })
 }

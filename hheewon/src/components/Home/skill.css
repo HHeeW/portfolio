@@ -1,0 +1,51 @@
+.SkillContainer{
+    margin-top: 100px;
+    position: relative;
+}
+/* 원 */
+.SkillBox{
+    position:absolute;
+    width: 30vw;
+    height: 30vw;
+    background-color: rgba(59, 170, 187, 0.6);
+    border: 1px solid rgba(59, 170, 187, 1);
+    border-radius: 50%;
+    z-index: 0;
+}
+.SkillBox1{
+    top: 5vh;
+    left: 15vw;
+}
+.SkillBox2{
+    top: 5vh;
+    right: 15vw;
+}
+.SkillBox3{
+    top: 40vh;
+    left: 25vw;
+}
+/* 기술 */
+.IconsBox{
+    position:absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    z-index: 0;
+}
+.IconBox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 25%);
+    z-index: 10;
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Icon{
+    width: 4vw;
+    margin: 10px;
+}
