@@ -7,10 +7,10 @@ const Skill = () => {
   return (
     <div className='SkillContainer'>
         <h1 className='text-center'>Skill<FontAwesomeIcon icon={faBook} className="ps-3" /></h1>
-        <div className='SkillBox SkillBox1'></div>
-        <div className='SkillBox SkillBox2'></div>
-        <div className='SkillBox SkillBox3'></div>
-        <div className='IconsBox SkillBox1'>
+        <div className='SkillBox SkillBox1'data-aos="zoom-in"></div>
+        <div className='SkillBox SkillBox2'data-aos="zoom-in"></div>
+        <div className='SkillBox SkillBox3'data-aos="zoom-in"></div>
+        <div className='IconsBox SkillBox1'data-aos="zoom-in">
           <div className='IconBox'>
             <img className='Icon' src="img/icon/html.png" alt="html" />
             <img className='Icon' src="img/icon/css.png" alt="css" />
@@ -20,7 +20,7 @@ const Skill = () => {
             <img className='Icon' src="img/icon/React.png" alt="React" />
           </div>
         </div>
-        <div className='IconsBox SkillBox2'>
+        <div className='IconsBox SkillBox2'data-aos="zoom-in">
           <div className='IconBox'>
             <img className='Icon' src="img/icon/Xd.png" alt="Xd" />
             <img className='Icon' src="img/icon/Ai.png" alt="Ai" />
@@ -30,7 +30,7 @@ const Skill = () => {
             <img className='Icon' src="img/icon/Mui.png" alt="Mui" />
           </div>
         </div>
-        <div className='IconsBox SkillBox3'>
+        <div className='IconsBox SkillBox3'data-aos="zoom-in">
           <div className='IconBox'>
             <img className='Icon' src="img/icon/git.png" alt="git" />
             <img className='Icon' src="img/icon/GitHub.png" alt="GitHub" />

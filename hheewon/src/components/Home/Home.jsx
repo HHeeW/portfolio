@@ -14,10 +14,10 @@ const Home = () => {
   }); 
 
   return (
-    <div className='HomeContainer'>
+    <div className='HomeContainer' data-aos="fade-left">
       <div className='WellcomBox'>
         <div id="City"></div>
-        <div id='WeatherBox'><img id='Weather' src="./img/01d.svg" alt="날씨" /></div>
+        <div id='WeatherBox'><img id='Weather' src="./img/weather/01d.svg" alt="날씨" /></div>
         <div id="Nowtemp"></div>
         <strong className='HomeText HomeText1' 
                 data-aos="fade-left"> WELLCOME TO </strong>

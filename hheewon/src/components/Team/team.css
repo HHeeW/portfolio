@@ -3,6 +3,9 @@
     margin: 200px 0;
     color: #000;
 }
+.TeamContainer h1{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
 .TeamBox{
     min-height: 50vh;
     display: flex;

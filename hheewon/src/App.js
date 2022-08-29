@@ -5,10 +5,11 @@ import Header from './components/Header'
 import Profile from './components/Profile'
 import Home from './components/Home/Home'
 import Team from './components/Team/Team';
+import WebDesgin from './components/Web/WebDesgin';
 
 const App = () => {
   AOS.init({
-    duration: 1000,
+    duration: 500,
     easing: 'ease-in-sine'
   });
   return (
@@ -16,9 +17,10 @@ const App = () => {
       <Header/>
       <div className='Box1'>
         <Profile/>
-        <div className='Box2' data-aos="fade-right">
+        <div className='Box2' data-aos="fade-left">
           <Home/>
           <Team/>
+          <WebDesgin/>
         </div>
       </div>
     </>

@@ -14,9 +14,9 @@ const Header = () => {
         <ul className='Header'>
             <li id='HeaderText' className='Active'>Home</li>
             <li id='HeaderText'>Team</li>
-            <li id='HeaderText'>React</li>
-            <li id='HeaderText'>App</li>
             <li id='HeaderText'>Web</li>
+            <li id='HeaderText'>App</li>
+            <li id='HeaderText'>React</li>
         </ul>
     </div>
   )
