@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>연습 사이트</title>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/web.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="videobox">
+                <video id="backVideo" width="100%" autoplay muted loop>
+                    <source src="video/forest.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h1 class="toph1 animate__animated animate__backInDown animate__slow 1s">HeeWon Web Site</h1>
+        </header>
+        <main class="row">
+            <aside class="col-3"><!--죄측-->
+                <h3>점심메뉴</h3>
+                <p id="menu"></p>
+                <h3>도전과제</h3>
+                <p id="game_win">50번 이겨보자</p>
+                <div id="Achievement" class="sub_box">
+                    
+                </div>
+            </aside>
+            <!-- ------------------------------------------- -->
+            <section class="col-6"><!--중앙-->
+                <div class="srpbox">
+                    <h1 class="toph1 animate__animated animate__slow">가위, 바위, 보 게임<span class="material-icons-outlined">sports_esports</span></h1>
+                    <div class="result-box">
+                        <p id="result">가위, 바위, 보중 하나를 선택하세요.</p>
+                    </div>
+                    <div class="result-img">
+                        <div class="me">
+                            <div id="me" style="background-image: url(images/sc.png);"> </div>
+                            <p class="text-center">나</p>
+                        </div>
+                        <div class="com">
+                            <div id="com" style="background-image: url(images/ro.png);"></div>
+                            <p class="text-center">컴퓨터</p>
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <button class="srp s" onclick="srp(0)">가위</button>
+                        <button class="srp r" onclick="srp(1)">바위</button>
+                        <button class="srp p" onclick="srp(2)">보</button>
+                    </div>
+                </div>
+            </section>
+            <!-- --------------------------------------------------- -->
+            <aside class="col-3"><!--우측-->
+                <button class="random lunch" onclick="lunch()">점심 버튼</button>
+                <p id="lunch">점심 메뉴!</p> 
+                <button class="random" onclick="lotto()">로또 버튼</button>
+                <div class="lotto">
+                    <p id="lotto"></p>
+                </div>
+                <div class="col-12 totalbox flex-Box">
+                    <div class="col-12 totalName flex-Box">
+                        <div class="col-4 win">
+                            승리
+                        </div>
+                        <div class="col-4 total">
+                            총회수
+                        </div>
+                        <div class="col-4 lose">
+                            패배
+                        </div>
+                    </div>
+                    <div class="col-12 totalNum flex-Box">
+                        <div id="win-Num" class="col-4">
+                            0회
+                        </div>
+                        <div id="total-Num" class="col-4">
+                            0회
+                        </div>
+                        <div id="lose-Num" class="col-4">
+                            0회
+                        </div>
+                    </div>
+                    <div class="col-12 totalSum">
+                        <div id="totalWin" class="col-6">
+                            승률 : 00%
+                        </div>
+                        <div id="totallose" class="col-6">
+                            패률 : 00%
+                        </div>
+                    </div>
+                </div> 
+            </aside>
+        </main>
+        <footer>
+
+        </footer>
+     </div>
+     <script src="js/rsp.js"></script>
+     <script src="js/srp.js"></script>
+</body>
+</html>

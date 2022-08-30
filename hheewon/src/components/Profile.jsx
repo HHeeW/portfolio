@@ -39,7 +39,7 @@ const Profile = ({ViewPort}) => {
                 <h4 className='Info'><strong>GitHub </strong><a target="_blank" href="https://github.com/HHeeW" without rel="noreferrer" > https://github.com/HHeeW</a></h4>
             </div>
         </div>
-        {scroll ? <img src="./img/scroll.gif" alt="스크롤이미지" className='ScrollImg' />: ''}
+        {ViewPort ? scroll ? <img src="./img/scroll.gif" alt="스크롤이미지" className='ScrollImg' />: '': ''}
     </div>
   )
 }

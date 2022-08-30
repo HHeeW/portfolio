@@ -1,4 +1,7 @@
 import React from 'react'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBlog } from '@fortawesome/free-solid-svg-icons';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
@@ -8,7 +11,7 @@ import "swiper/css/navigation";
 const Blog = () => {
   return (
     <div className='WDBrick'>
-        <h1 className='text-center mb-5'data-aos="flip-down">블로그</h1>
+        <h1 className='text-center mb-5'data-aos="flip-down">블로그<FontAwesomeIcon icon={faBlog} className="ps-3"/></h1>
         <div className='WDBox'>
             <div className='WDSlider' data-aos="flip-down">
               <div className='WDSwiper'>

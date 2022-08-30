@@ -6,7 +6,7 @@ import Profile from './components/Profile'
 import Home from './components/Home/Home'
 import Team from './components/Team/Team';
 import WebDesgin from './components/Web/WebDesgin';
-
+import Weather from './components/App/Weather'
 const App = () => {
   const media= (window.matchMedia('(max-width: 500px)').matches);
   AOS.init({
@@ -22,6 +22,7 @@ const App = () => {
           <Home ViewPort={media}/>
           <Team ViewPort={media}/>
           <WebDesgin/>
+          <Weather/>
         </div>
       </div>
     </>

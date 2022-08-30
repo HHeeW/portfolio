@@ -1,0 +1,12 @@
+.AppContainer{
+    width: 100%;
+    
+}
+.AppContainer iframe{
+    width: 500px;
+    height: 800px;
+}
+#AppHTML{
+    width: 1000px;
+    height: 1000px;
+}

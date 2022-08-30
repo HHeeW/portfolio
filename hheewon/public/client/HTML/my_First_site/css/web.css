@@ -1,0 +1,224 @@
+@import url(fonts.css);
+@import url(all.min.css);
+@import url(animate.min.css);
+@import url(grid.css);
+@import url(grid2.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+*{box-sizing: border-box;}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: url(../images/001.jpg);
+}
+a , a:link{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+/* header */
+header{
+    background-size: 100%;
+    min-width: 500px;
+}
+div.videobox{
+    position: relative;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+h1{
+    font-size: 70px;
+    margin: 30px 0;
+    padding:0;
+    color: #fff;
+    text-shadow: 2px 2px 2px #666;
+}
+nav{
+    height: 50px;
+    margin: 10px;
+}
+.gnb{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gnb>li{
+    width: 150px;
+}
+.gnb>li>a{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: rgba(180, 180, 250, .8);
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px;
+}
+.lnb{
+    margin: 0 auto;
+    padding: 0;
+}
+.lnb>li{
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px;
+    background-color: rgba(100, 100, 100, .7);
+    display: none;
+}
+.lnb>li>a{
+    color: #fff;
+    margin-top: 3px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.lnb>li:hover,
+.gnb>li>a:hover
+{
+    background-color: rgb(150, 150, 250);
+    width: 150px;
+}
+.gnb>li:hover .lnb>li{
+    display: block;
+}
+
+.row{
+    margin: 100px 50px 0;
+    background-color: rgba(200, 200, 200, .3);
+    overflow: hidden;
+}
+/* 죄측 */
+#menu{
+    padding: 0 30px;
+}
+.flex-Box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_box{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+
+
+
+/* **중앙** */
+section{
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    padding: 0;
+    color: #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    }
+.srpbox span{
+    font-size: 50px;
+    vertical-align: middle;
+}
+.result-img{
+    height: 15px;
+}
+.me{
+    float: left;
+    width: 150px;
+    height: 170px;
+    margin-left: 50px;
+}
+.com{
+    float: right;
+    width: 150px;
+    height: 170px;
+    margin-right: 50px;
+}
+.me p, .com p{
+    margin: 0;
+    text-align: center;
+}
+.me div, .com div{
+    background-size: contain;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+.btn-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+button.srp{
+    padding: 10px 20px;
+    font-size: 30px;
+    margin: 10px;
+    font-family: 'Dongle', sans-serif;
+    border-radius: 20%;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(80, 130, 170);
+}
+.s:hover{
+    background-color: rgb(150, 150, 250);
+}
+.r:hover{
+    background-color: rgb(80, 170, 121);
+}
+.p:hover{
+    background-color: rgb(201, 120, 190);
+}
+/* aside 우측 */
+aside.col-3{
+    padding: 0;
+}
+aside button{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 250);
+    box-shadow: 1px 1px 5px 1px;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+}
+aside button:hover{
+    background-color: rgb(150, 150, 250);
+}
+aside #lunch, #lotto {
+    font-size: 20px;
+}
+aside div.lotto{
+    margin: 0 auto;
+    padding: 0;
+}
+.totalbox{
+    flex-direction: column;
+    border-top: 1px solid #fff;
+    padding: 10px;
+}
+.totalbox>div>div{
+    border: 1px solid #fff;
+    padding-top: 15px;
+    
+}
