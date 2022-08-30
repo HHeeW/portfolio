@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const MyPage = () => {
+const MyPage = ({ViewPort}) => {
   return (
     <>
       <h1 className='text-center mb-5'data-aos="flip-down">개인 페이지 디자인<FontAwesomeIcon icon={faUser} className="ps-3" /></h1>
@@ -21,7 +21,7 @@ const MyPage = () => {
               pagination={{
               clickable: true,
               }}
-              navigation={true}
+              navigation={ViewPort}
               modules={[Navigation, Pagination]}
                   className="mySwiper"
             >

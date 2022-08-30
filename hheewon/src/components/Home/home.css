@@ -89,4 +89,8 @@
     .HomeText2{
         right: 10vw;
     }
+    .ScrollImg{
+        max-width: 300px;
+        width: 50vw;
+    }
 }

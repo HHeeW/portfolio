@@ -3,8 +3,7 @@ import './home.css'
 import Skill from './Skill'
 import '../Weather/Weather'
 import $ from 'jquery'
-const Home = () => {
-  const media= (window.matchMedia('(max-width: 500px)').matches);
+const Home = ({ViewPort}) => {
   const [scroll, setScroll] = useState(true);
   $(document).on('scroll' , function () {
     let height = $(document).scrollTop();
@@ -13,13 +12,13 @@ const Home = () => {
     // console.log(scroll);
   });
   return (
-    <div className='HomeContainer' data-aos={media===true ? "": "fade-left"}>
+    <div className='HomeContainer' data-aos={ViewPort===true ? "": "fade-left"}>
       <div className='WellcomBox'>
         <div id="City"></div>
         <div id='WeatherBox'><img id='Weather' src="./img/weather/01d.svg" alt="날씨" /></div>
         <div id="Nowtemp"></div>
         <strong className='HomeText HomeText1' 
-                data-aos={media===true ? "fade-right": "fade-left"}> WELLCOME TO </strong>
+                data-aos={ViewPort===true ? "fade-right": "fade-left"}> WELCOME TO </strong>
         <strong className='HomeText HomeText2' 
                 data-aos="fade-left"> PORTFOLIO </strong>
         <div className='ScrollImgBox'>

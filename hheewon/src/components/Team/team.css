@@ -5,6 +5,9 @@
 .TeamContainer h1{
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
+.TeamBrick{
+    margin-top: 20vh;
+}
 .TeamBox{
     min-height: 50vh;
     display: flex;
@@ -65,7 +68,7 @@
     }
     .TeamTextBox{
         width: 70vw;
-        margin-top: 50px;
+        margin: 50px;
     }
     .TeamText{
         font-size: 1.3rem;

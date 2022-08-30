@@ -7,7 +7,7 @@
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .WDBrick{
-    height: 80vh;
+    min-height: 70vh;
     margin: 100px;
     margin-bottom: 0;
 }
