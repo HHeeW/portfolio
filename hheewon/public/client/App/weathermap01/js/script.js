@@ -70,12 +70,12 @@ function getWeather(lat, lon, city){
    
    
    let params = Object.keys(mydata).map(key => key + '=' + mydata[key]).join('&');
-   console.log(params);
+   // console.log(params);
 
    fetch(`${url}?${params}`)
    .then( reson => reson.json())
    .then( rs => {
-      console.log(rs);
+      // console.log(rs);
       /*
        1.도시명 2.시간 3.아이콘 4.현재온도 
       5.최고온도. 최저온도 6.설명 
@@ -91,20 +91,20 @@ function getWeather(lat, lon, city){
    let nowDate = nowTime.getFullYear() + "년 " + (parseInt(nowTime.getMonth()) + 1) +"월 " + nowTime.getDate() + "일 " + nowTime.getHours() + "시";
 
 
-    console.log("도시명", county(rs.city.name));
-    console.log("시간", nowDate);
-    console.log("아이콘", rs.list[0].weather[0].icon);
-    console.log("현재온도", rs.list[0].main.temp);
-    console.log("최저온도", rs.list[0].main.temp_min);
-    console.log("최고온도", rs.list[0].main.temp_max);
-    console.log("설명", rs.list[0].weather[0].description);
-    console.log("해뜨는 시간", sunrise);
-    console.log("해지는 시간", sunset);
-    console.log("바람세기", rs.list[0].wind.speed);
-    console.log("바람방향", rs.list[0].wind.deg);
-    console.log("습도", rs.list[0].main.humidity);
-    console.log("구름", rs.list[0].clouds.all);
-    console.log("체감온도", rs.list[0].main.feels_like);
+   //  console.log("도시명", county(rs.city.name));
+   //  console.log("시간", nowDate);
+   //  console.log("아이콘", rs.list[0].weather[0].icon);
+   //  console.log("현재온도", rs.list[0].main.temp);
+   //  console.log("최저온도", rs.list[0].main.temp_min);
+   //  console.log("최고온도", rs.list[0].main.temp_max);
+   //  console.log("설명", rs.list[0].weather[0].description);
+   //  console.log("해뜨는 시간", sunrise);
+   //  console.log("해지는 시간", sunset);
+   //  console.log("바람세기", rs.list[0].wind.speed);
+   //  console.log("바람방향", rs.list[0].wind.deg);
+   //  console.log("습도", rs.list[0].main.humidity);
+   //  console.log("구름", rs.list[0].clouds.all);
+   //  console.log("체감온도", rs.list[0].main.feels_like);
     
     document.getElementById("city").innerHTML = county(rs.city.name);
     document.getElementById("now_Time").innerHTML = nowDate;

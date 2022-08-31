@@ -14,7 +14,7 @@ const WebDesgin = () => {
   return (
     <div className='WDContainer'>
         <div className='WDBrick'>
-        <h1 className='text-center mb-5'data-aos="flip-down">웹 디자인<FontAwesomeIcon icon={faCode} className="ps-3" /></h1>
+        <h1 className='text-center mb-5 text-dark'data-aos="flip-down">웹 디자인<FontAwesomeIcon icon={faCode} className="ps-3" /></h1>
             <div className='WDBox'>
                 <div className='WDSlider' data-aos="flip-down">
                 <div className='WDSwiper'>

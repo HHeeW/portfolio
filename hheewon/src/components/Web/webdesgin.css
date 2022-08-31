@@ -1,13 +1,12 @@
 .WDContainer{
-    color: #000;
     min-height: 2000px;
     background: linear-gradient(#fff, rgba(59, 123, 187, 0.7));
 }
 .WDContainer h1{
-    text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 .WDBrick{
-    height: 80vh;
+    height: 90vh;
 }
 .WDBox{
     min-height: 50vh;
@@ -25,15 +24,20 @@
     padding: 30px;
     margin: 0 auto;
 }
+.WDBrick .swiper-wrapper{
+    height: 60vh;
+}
 .WDSwiper img{
     max-height: 50vh;
 }
 
 @media screen and (max-width:500px) {
-    
     .WDSwiper{
         width: 90vw;
         padding: 30px;
         margin: 0 auto;
+    }
+    .WDBrick .swiper-wrapper{
+        height: 30vh;
     }
 }

@@ -1,5 +1,5 @@
 .HomeContainer{
-    background: linear-gradient(rgba(59, 170, 187, 70), #fff);
+    background: linear-gradient(rgba(59, 170, 187, 1), #fff);
     min-height: 200vh;
     /* overflow-x: hidden; */
     -ms-overflow-style: none;

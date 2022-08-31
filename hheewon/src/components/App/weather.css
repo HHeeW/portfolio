@@ -1,12 +1,48 @@
 .AppContainer{
-    width: 100%;
-    
+    background: linear-gradient(rgba(59, 123, 187, 0.7), rgba(59, 123, 187, 1));
+    min-height: 100vh;
+}
+.AppContainer h1{
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.AppBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .AppContainer iframe{
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 700px;
+    border: 1px solid rgba(59, 123, 187, 1);
 }
-#AppHTML{
-    width: 1000px;
-    height: 1000px;
+.AppHTML{
+    background:linear-gradient( rgba(59, 123, 187, 0.5), rgba(59, 123, 187, 1));
+    padding: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+}
+.AppInfo{
+    width: 30%;
+    height: 50vh;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.AppInfo p:nth-child(2){
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:500px) {
+    .AppBox{
+        flex-direction: column;
+    }
+    .AppContainer iframe{
+        width: 70vw;
+        height: 65vh;
+    }
+    .AppInfo{
+        width: 70vw;
+        margin-top: 10vh;
+    }
 }

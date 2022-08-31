@@ -7,12 +7,17 @@ import Home from './components/Home/Home'
 import Team from './components/Team/Team';
 import WebDesgin from './components/Web/WebDesgin';
 import Weather from './components/App/Weather'
+import Electric from './components/React/Electric';
+
+
 const App = () => {
+  
   const media= (window.matchMedia('(max-width: 500px)').matches);
   AOS.init({
     duration: 500,
     easing: 'ease-in-sine'
   });
+
   return (
     <>
       <Header/>
@@ -23,6 +28,7 @@ const App = () => {
           <Team ViewPort={media}/>
           <WebDesgin/>
           <Weather/>
+          <Electric ViewPort={media}/>
         </div>
       </div>
     </>
