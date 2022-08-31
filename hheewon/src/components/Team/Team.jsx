@@ -31,32 +31,32 @@ const Team = ({ViewPort}) => {
                         className="mySwiper"
                     >
                     <SwiperSlide>
-                        <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\main.png" alt="main" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/movie" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/movie" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\movie.png" alt="movie" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/Movie_Page_List/1" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/Movie_Page_List/1" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\info.png" alt="info" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/ticket" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/ticket" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\ticket.png" alt="ticket" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/giftshop" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/giftshop" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\shop.png" alt="shop" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/reserve" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="https://hheew.github.io/Team/reserve" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\team\event.png" alt="event" />
                         </a>
                     </SwiperSlide>
