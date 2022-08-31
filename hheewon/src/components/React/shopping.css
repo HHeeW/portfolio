@@ -1,7 +1,7 @@
 .ShoppingContainer{
     min-height: 100vh;
     width: 100%;
-    margin: 10vh auto;
+    margin: 10vh auto 0;
 }
 .SHoppingBrick{
     display: flex;

@@ -25,7 +25,7 @@ const Electric = ({ViewPort}) => {
   }, [myLat, myLng])
 
   return (
-    <div className='ElectricContainer'>
+    <div className='ReactContainer'>
       <h1 className='text-center mb-5'data-aos="flip-down">API<FontAwesomeIcon icon={faChargingStation} className="ps-3" /></h1>
       <div className='ElectricBox'>
         <div className='ElectricBrick'>

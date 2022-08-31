@@ -15,7 +15,7 @@
     justify-content: space-around;
     align-items: center;
 }
-#HeaderText{
+.Header div{
     color: #fff;
     margin: 0;
     font-size: 2rem;
@@ -44,7 +44,7 @@
         width: 100%;
         margin: 0 auto;
     }
-    #HeaderText{
+    .Header div{
         font-size: 1.5rem;
         margin: 0 10px;
     }

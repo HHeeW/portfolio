@@ -1,7 +1,6 @@
-.ElectricContainer{
+.ReactContainer{
     background: linear-gradient(rgba(59, 123, 187, 1), rgba(59, 170, 187, 1));
     min-height: 100vh;
-    padding: 10vh 0;
 }
 .ElectricBox{
     display: flex;
