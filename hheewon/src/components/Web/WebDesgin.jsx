@@ -33,17 +33,17 @@ const WebDesgin = () => {
                         className="mySwiper"
                     >
                     <SwiperSlide>
-                        <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="\client\HTML\webdesign01\index.html" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\html\webdesign01.png" alt="웹디자인" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/movie" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="\client\HTML\webdesign02\index.html" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\html\webdesign02.png" alt="웹디자인e" />
                         </a>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <a href="http://localhost:3001/Movie_Page_List/1" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="\client\HTML\webdesign03\index.html" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\html\webdesign03.png" alt="웹디자인" />
                         </a>
                     </SwiperSlide>

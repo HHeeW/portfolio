@@ -28,32 +28,32 @@ const Clone = () => {
                     className="mySwiper"
                 >
                 <SwiperSlide>
-                    <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                    <a href="\client\HTML\HNews\HNews.html" target={'_blank'} rel='noopener noreferrer'>
                         <img src="..\img\html\NaverNews.png" alt="NaverNews" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                    <a href="public\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
                         <img src="..\img\html\daumcafe01.jpg" alt="daumcafe" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="http://localhost:3001/movie" target={'_blank'} rel='noopener noreferrer'>
+                    <a href="public\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
                         <img src="..\img\html\daumcafe02.jpg" alt="daumcafe" />
                     </a>
                 </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks01.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/movie" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks02.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/Movie_Page_List/1" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks03.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>

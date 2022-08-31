@@ -28,22 +28,22 @@ const Blog = () => {
                       className="mySwiper"
                 >
                     <SwiperSlide>
-                        <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                        <a href="\client\HTML\my_First_site\mysebsite.html" target={'_blank'} rel='noopener noreferrer'>
                             <img src="..\img\html\my_First_site.png" alt="blog" />
                         </a>
                     </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="client\HTML\blog\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\blog01.jpg" alt="blog" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/movie" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="client\HTML\blog\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\blog02.jpg" alt="bloge" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="http://localhost:3001/Movie_Page_List/1" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="client\HTML\blog\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\blog03.jpg" alt="blog" />
                       </a>
                   </SwiperSlide>
