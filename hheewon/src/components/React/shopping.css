@@ -16,10 +16,10 @@
 }
 .ShoppingSwiper{
     padding: 30px;
-    margin: 0 auto;
+    margin: 0;
 }
 .ShoppingSwiper .swiper-wrapper{
-    height: 70vh;
+    height: 65vh;
 }
 .ShoppingSwiper img{
     max-height: 60vh;
@@ -27,4 +27,19 @@
 .ShoppingInfo{
     width: 30%;
     font-size: 1.5rem;
+}
+@media screen and (max-width:500px) {
+    .SHoppingBrick{
+        flex-direction: column;
+    }
+    .ShoppingSlider{
+        max-width: 80%;
+        margin: 5vh 0;
+    }
+    .ShoppingSwiper .swiper-wrapper{
+        height: 40vh;
+    }
+    .ShoppingInfo{
+        width: 80%;
+    }
 }

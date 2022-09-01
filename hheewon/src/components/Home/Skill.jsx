@@ -6,7 +6,7 @@ import './skill.css'
 const Skill = () => {
   return (
     <div className='SkillContainer'>
-        <h1 className='text-center'>Skill<FontAwesomeIcon icon={faBook} className="ps-3" /></h1>
+        <h1 className='text-center'>Skills<FontAwesomeIcon icon={faBook} className="ps-3" /></h1>
         <div className='SkillBox SkillBox1'data-aos="zoom-in"></div>
         <div className='SkillBox SkillBox2'data-aos="zoom-in"></div>
         <div className='SkillBox SkillBox3'data-aos="zoom-in"></div>
@@ -33,7 +33,7 @@ const Skill = () => {
             </div>
             <div>
               <img className='Icon' src="img/icon/styled.png" alt="styled" />
-              <img className='Icon' src="img/icon/BootStrap.png" alt="BootStrap" />
+              <img className='Icon' src="img/icon/bootstrap.png" alt="BootStrap" />
               <img className='Icon' src="img/icon/Mui.png" alt="Mui" />
             </div>
           </div>

@@ -30,7 +30,14 @@ li{
   margin-left: 20vw;
   overflow-x: hidden;
 }
-
+.BtnBox{
+  width: 50%;
+  margin: 0;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 @media screen and (max-width: 1000px) {
   .Box2{
     margin-left: 200px;
@@ -40,5 +47,9 @@ li{
 
   .Box2{
     margin-left: 0;
+  }
+  .BtnBox{
+    width: 100%;
+    margin-bottom: 5vh;
   }
 }

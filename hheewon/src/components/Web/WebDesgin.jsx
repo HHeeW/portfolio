@@ -22,11 +22,12 @@ const WebDesgin = () => {
                     slidesPerView={1}
                     spaceBetween={0}
                     autoHeight={true}
+                    loop={true}
                     pagination={{
                     clickable: true,
                     }}
                     autoplay={{
-                        delay: 1000,
+                        delay: 3000,
                         disableOnInteraction: false,
                     }}
                     modules={[Autoplay, Pagination]}

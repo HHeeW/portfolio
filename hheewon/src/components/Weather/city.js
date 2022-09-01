@@ -20,7 +20,11 @@ const county=(c)=>{
         case "Yongsan":
             return "용산";
         case "Sindaebang-dong":
-            return "신대방 1동";
+            return "신대방";
+        case "Haenam":
+            return "해남";
+        case "Incheon":
+            return "인천";
         default:
             return c;
     }

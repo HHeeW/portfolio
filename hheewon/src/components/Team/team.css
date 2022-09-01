@@ -69,6 +69,8 @@
     .TeamTextBox{
         width: 70vw;
         margin: 50px;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .TeamText{
         font-size: 1.3rem;

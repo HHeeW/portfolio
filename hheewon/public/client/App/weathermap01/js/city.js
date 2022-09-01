@@ -25,6 +25,8 @@ function county(c){
             return "신대방 1동";
         case "Haenam":
             return "해남";
+        case "Incheon":
+            return "인천";
         default:
             return c;
     }
@@ -59,6 +61,8 @@ function searchCity(s){
             return "Sindaebang-dong";
         case "해남":
             return "Haenam";
+        case "인천":
+            return "Incheon";
         default:
             return s;
     }

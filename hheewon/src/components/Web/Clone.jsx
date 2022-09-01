@@ -3,7 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClone } from '@fortawesome/free-solid-svg-icons';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -16,15 +16,19 @@ const Clone = () => {
             <div className='WDSlider' data-aos="flip-down">
               <div className='WDSwiper'>
                 <Swiper
-                    direction={"vertical"}
+                    // direction={"vertical"}
                     slidesPerView={1}
                     spaceBetween={0}
                     autoHeight={true}
-                    autoplay={{
-                    delay: 1000,
-                    disableOnInteraction: false,
+                    loop={true}
+                    pagination={{
+                    clickable: true,
                     }}
-                    modules={[Autoplay]}
+                    autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: true,
+                    }}
+                    modules={[Autoplay, Pagination]}
                     className="mySwiper"
                 >
                 <SwiperSlide>
@@ -33,27 +37,27 @@ const Clone = () => {
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="public\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
+                    <a href="\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
                         <img src="..\img\html\daumcafe01.jpg" alt="daumcafe" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="public\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
+                    <a href="\client\HTML\doumcafe\index.html" target={'_blank'} rel='noopener noreferrer'>
                         <img src="..\img\html\daumcafe02.jpg" alt="daumcafe" />
                     </a>
                 </SwiperSlide>
                   <SwiperSlide>
-                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks01.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks02.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>
                   <SwiperSlide>
-                      <a href="public\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
+                      <a href="\client\HTML\MoonBucks\index.html" target={'_blank'} rel='noopener noreferrer'>
                           <img src="..\img\html\starbucks03.jpg" alt="starbucks" />
                       </a>
                   </SwiperSlide>

@@ -28,7 +28,7 @@
     height: 60vh;
 }
 .WDSwiper img{
-    max-height: 50vh;
+    max-height: 60vh;
 }
 
 @media screen and (max-width:500px) {

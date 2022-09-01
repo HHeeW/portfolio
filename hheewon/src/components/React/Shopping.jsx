@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { Button } from '@mui/material';
+import CodeIcon from '@mui/icons-material/Code';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
@@ -28,21 +30,23 @@ const Shopping = () => {
                     className="mySwiper"
                 >
                 <SwiperSlide>
-                    <img src="..\img\react\shopping01.jpg" alt="shopping01" />
+                    <img src="\img\react\shopping01.jpg" alt="shopping01" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="..\img\react\shopping02.jpg" alt="shopping01" />
+                    <img src="\img\react\shopping02.jpg" alt="shopping01" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="..\img\react\shopping03.jpg" alt="shopping02" />
+                    <img src="\img\react\shopping03.jpg" alt="shopping02" />
                 </SwiperSlide>
                 </Swiper>
               </div>
             </div>
             <div className='ShoppingInfo'>
                 <p>
-                    React를 바탕으로 Json으로 데이터를 저장하여 map으로 배포하여 생성했습니다.
+                    React를 사용하여 Json으로 데이터를 저장하고 map으로 배포하여 생성했습니다.
                 </p>
+                <Button variant="contained" href="https://hwangheewon.github.io" target="_blank" endIcon={<CodeIcon />}>코드</Button>
+
             </div>
         </div>
     </div>

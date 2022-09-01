@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAndroid } from '@fortawesome/free-solid-svg-icons';
+import { Button } from '@mui/material';
+import CodeIcon from '@mui/icons-material/Code';
 import React from 'react'
 import './weather.css'
 const Weather = () => {
@@ -26,6 +28,10 @@ const Weather = () => {
             앱 오른쪽 상단 돋보기를 사용하여 검색이 가능합니다.<br/>
             앱 하단 이름을 클릭시 내 위치로 다시 돌아옵니다.
           </p>
+          
+          <div className='BtnBox'>
+              <Button variant="contained" href="https://github.com/HHeeW/portfolio/tree/main/hheewon/public/client/App/weathermap01" target="_blank" endIcon={<CodeIcon />}>코드</Button>
+          </div>
         </div>
       </div>
     </div>

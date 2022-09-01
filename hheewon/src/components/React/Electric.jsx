@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChargingStation } from '@fortawesome/free-solid-svg-icons';
+import { Button } from '@mui/material';
+import CodeIcon from '@mui/icons-material/Code';
 import React, { useEffect, useState } from 'react'
 import Maps from './kakaomap/Maps'
 import Lists from './kakaomap/Lists'
@@ -35,9 +37,9 @@ const Electric = ({ViewPort}) => {
           </div>
         </div>
         <div className='ElectricInfo' data-aos="flip-right">
-          <p>공공데이터 API와 카카오맵을 활용하여 내 위치 기반 전기차 충전소의 위치를 확인할 수 있는 간단한 기능입니다. </p>
+          <p>공공데이터 API와 카카오 맵을 활용하여 내 위치 기반 전기차 충전소의 위치를 확인할 수 있는 간단한 기능입니다. </p>
           <p>기존 React를 사용하여 만든 코드를 복사, 수정하여 만들었습니다.</p>
-          <br/>
+          <Button variant="contained" href="https://github.com/HHeeW/work/tree/main/Web/React/elect" target="_blank" endIcon={<CodeIcon />}>코드</Button>
         </div>
       </div>
       <Shopping/>

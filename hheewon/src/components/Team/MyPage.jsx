@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 const MyPage = ({ViewPort}) => {
   return (
     <>
-      <h1 className='text-center mb-5'data-aos="flip-down">개인 페이지 디자인<FontAwesomeIcon icon={faUser} className="ps-3" /></h1>
+      <h1 className='text-center mb-5'data-aos="flip-down">개인 디자인<FontAwesomeIcon icon={faUser} className="ps-3" /></h1>
       <div className='TeamBox'>
         <div className='TeamSlider' data-aos="fade-right">
           <div className='TeamSwiper'>
@@ -48,7 +48,7 @@ const MyPage = ({ViewPort}) => {
         </div>
         <div className='TeamTextBox' data-aos="fade-left">
             <p className='TeamText'>
-              영화 페이지를 만들기 전 영화에 넣을 정보와 포스터등을 정리하고 만들기 위해<br/>
+              영화 페이지를 만들기 전 영화에 넣을 정보와 포스터 등을 정리하고 만들기 위해<br/>
               Adobe Xd를 사용하여 웹 디자인을 하였습니다.
               
             </p>
