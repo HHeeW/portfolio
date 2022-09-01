@@ -23,7 +23,7 @@ const Shopping = () => {
                     spaceBetween={0}
                     autoHeight={true}
                     autoplay={{
-                    delay: 1000,
+                    delay: 3000,
                     disableOnInteraction: false,
                     }}
                     modules={[Autoplay]}
