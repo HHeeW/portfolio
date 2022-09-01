@@ -46,7 +46,7 @@ const Shopping = () => {
                     React를 사용하여 Json으로 데이터를 저장하고 map으로 배포하여 생성했습니다.
                 </p>
                 <div className='BtnBox'>
-                  <Button variant="contained" href="https://hwangheewon.github.io" target="_blank" endIcon={<CodeIcon />}>코드</Button>
+                  <Button variant="contained" href="https://github.com/HHeeW/portfolio/tree/main/shopping" target="_blank" endIcon={<CodeIcon />}>코드</Button>
                 </div>
             </div>
         </div>

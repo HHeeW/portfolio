@@ -65,7 +65,10 @@ const Team = ({ViewPort}) => {
                     </p>
                     
                     <div className='BtnBox'>
-                        <Button variant="contained" href="https://hwangheewon.github.io" target="_blank" endIcon={<LinkIcon />}>사이트</Button>
+                        {ViewPort ? 
+                            <Button variant="contained" href="https://hwangheewon.github.io" target="_blank" endIcon={<LinkIcon />} >사이트</Button>:
+                            <Button variant="contained" disabled target="_blank" endIcon={<LinkIcon />} >웹 전용</Button>
+                        }
                         <Button variant="contained" href="https://github.com/HHeeW/CHK_Movie" target="_blank" endIcon={<CodeIcon />}>코드</Button>
                     </div>
                 </div>
