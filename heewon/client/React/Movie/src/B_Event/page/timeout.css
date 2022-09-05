@@ -1,0 +1,59 @@
+
+.b_out{
+    padding-top: 20px;
+}
+.b_out p{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.b_outList{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    font-weight: 500;
+  
+}
+.b_outList li{
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+.b_outList li>span{
+    display : block;
+    color: #666;
+
+}
+.b_pageNum a:hover,.b_outList li:hover{
+    font-weight: bold;
+}
+.b_pageNum{
+    font-weight: 500;
+    justify-content: space-around; 
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    margin-left:36%
+  
+ 
+
+ 
+
+}
+
+.b_pageNum a{
+    display: block;
+}
+.b_pageNum a:active{
+    color:red ;
+
+}
+.b_pageNum span{
+    font-size: 15px;
+
+}

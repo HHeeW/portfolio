@@ -1,0 +1,23 @@
+.k-nav-container{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.k-nav-header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.k-nav-slide{
+    width: 1200px;
+    height: 400px;
+    background-color: black;
+}
+.k-mySwiper img{
+    padding: 20px;
+    cursor: pointer;
+}
+.k-mySwiper img:hover{
+    opacity: 0.5;
+}

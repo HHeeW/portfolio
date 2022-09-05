@@ -7,7 +7,7 @@ import './weather.css'
 const Weather = () => {
 
   const weatherapp =()=>{
-    return {__html:'<iframe src="./client/App/weathermap01/index.html"></iframe>'}
+    return {__html:'<iframe title={"날씨 앱"} src="./client/App/weathermap01/index.html"></iframe>'}
   } 
 
   return (
@@ -41,3 +41,8 @@ const Weather = () => {
 }
 
 export default Weather
+
+
+
+
+
