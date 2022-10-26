@@ -57,13 +57,12 @@ const Team = ({ViewPort}) => {
                 </div>
                 <div className='TeamTextBox' data-aos="fade-left">
                     <p className='TeamText'>
-                    팀 프로젝트로 총 4명으로 이루어진 팀입니다.<br/>
-                    영화를 좋아하는 사람들이 모여 각각의 페이지를 코딩했습니다.<br/>
-                    홈페이지는 다 같이 나누어서 만들었고 저는 홈의 상단과 영화 페이지를 만들었습니다.<br/>
-                    React를 사용하여 props로 정보를 전달하여 생성하고,<br/>
-                    Router를 사용하여 영화 데이터를 전달하는 방식으로 예매와 연결하였습니다.
+                        • React, ES6를 활용한 영화 정보 UI<br/>
+                        • 영화 목록 정렬<br/>
+                        • 영화 이름(한글/영어) 검색<br/>
+                        • Iframe, Swiper 등 사용<br/>
+                        • React Hook, Router
                     </p>
-                    
                     <div className='BtnBox'>
                         {ViewPort ? 
                             <Button variant="contained" href="https://hwangheewon.github.io" target="_blank" endIcon={<LinkIcon />} >사이트</Button>:

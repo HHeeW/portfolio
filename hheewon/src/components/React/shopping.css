@@ -9,7 +9,7 @@
     align-items: center;
 }
 .ShoppingSlider{
-    max-width: 50%;
+    width: 30%;
     background-color: rgba(59, 123, 187, 0.5);
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);

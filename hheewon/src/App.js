@@ -13,6 +13,7 @@ import Electric from './components/React/Electric';
 const App = () => {
   
   const media= (window.matchMedia('(max-width: 500px)').matches);
+  
   AOS.init({
     duration: 500,
     easing: 'ease-in-sine'

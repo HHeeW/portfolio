@@ -38,8 +38,15 @@ const Electric = ({ViewPort}) => {
         </div>
         <div className='ElectricInfo' data-aos="flip-right">
           <div>
-            <p>공공데이터 API와 카카오 맵을 활용하여 내 위치 기반 전기차 충전소의 위치를 확인할 수 있는 간단한 기능입니다. </p>
-            <p>기존 React를 사용하여 만든 코드를 복사, 수정하여 만들었습니다.</p>
+            <p>
+              • React를 활용한 반응형 웹<br/>
+              <br/>
+              • 공공데이터 Api 활용 <br/>
+              • 충전소 위치, 정보 데이터<br/>
+              <br/>
+              • React Kakao map Api <br/>
+              • 사용 지도/마크 생성<br/>
+            </p>
           </div>
           <div className='BtnBox'>
             <Button variant="contained" href="https://github.com/HHeeW/portfolio/tree/main/parking" target="_blank" endIcon={<CodeIcon />}>코드</Button>

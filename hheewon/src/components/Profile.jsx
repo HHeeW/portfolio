@@ -34,9 +34,18 @@ const Profile = ({ViewPort}) => {
         </div>
         <div className='MyInfo'>
             <div>
-                <h5 className='Info'><strong>Tel. </strong><a href='tel:010-5703-4472'>010-5703-4472</a></h5>
-                <h5 className='Info'><strong>E-mail </strong><a href='mailto:hheewon99@gmail.com'>hheewon99@gmail.com</a></h5>
-                <h5 className='Info'><strong>GitHub </strong><a target="_blank" href="https://github.com/HHeeW" without rel="noreferrer" > https://github.com/HHeeW</a></h5>
+                <h5 className='Info'>
+                    <strong>Tel. </strong>
+                    <a href='tel:010-5703-4472'>010-5703-4472</a>
+                </h5>
+                <h5 className='Info'>
+                    <strong>E-mail </strong>
+                    <a href='mailto:hheewon99@gmail.com'>hheewon99@gmail.com</a>
+                </h5>
+                <h5 className='Info'>
+                    <strong>GitHub </strong>
+                    <a target="_blank" href="https://github.com/HHeeW" without rel="noreferrer" > https://github.com/HHeeW</a>
+                </h5>
             </div>
         </div>
         {ViewPort ? scroll ? <img src="./img/scroll.gif" alt="스크롤이미지" className='ScrollImg' />: '': ''}

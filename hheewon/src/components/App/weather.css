@@ -24,14 +24,10 @@
 }
 .AppInfo{
     width: 30%;
-    height: 50vh;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.AppInfo p:nth-child(2){
-    font-size: 1.2rem;
 }
 
 @media screen and (max-width:500px) {
@@ -47,8 +43,5 @@
         margin-top: 10vh;
         display: flex;
         flex-direction: column-reverse;
-    }
-    .AppInfo p:nth-child(2){
-        font-size: 1rem;
     }
 }

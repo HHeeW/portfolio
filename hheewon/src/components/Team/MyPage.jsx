@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const MyPage = ({ViewPort}) => {
+  console.log(ViewPort)
   return (
     <>
       <h1 className='text-center mb-5'data-aos="flip-down">개인 디자인<FontAwesomeIcon icon={faUser} className="ps-3" /></h1>
@@ -48,8 +49,8 @@ const MyPage = ({ViewPort}) => {
         </div>
         <div className='TeamTextBox' data-aos="fade-left">
             <p className='TeamText'>
-              영화 페이지를 만들기 전 영화에 넣을 정보와 포스터 등을 정리하고 만들기 위해<br/>
-              Adobe Xd를 사용하여 웹 디자인을 하였습니다.
+              • Adobe XD<br/>
+              • Diagram
               
             </p>
         </div>
