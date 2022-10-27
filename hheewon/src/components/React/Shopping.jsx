@@ -43,7 +43,10 @@ const Shopping = () => {
             </div>
             <div className='ShoppingInfo'>
                 <p>
-                    React를 사용하여 Json으로 데이터를 저장하고 map으로 배포하여 생성했습니다.
+                  • 쇼핑몰<br/>
+                  • React<br/>
+                  • JSON<br/>
+                  • ES6<br/>
                 </p>
                 <div className='BtnBox'>
                   <Button variant="contained" href="https://github.com/HHeeW/portfolio/tree/main/shopping" target="_blank" endIcon={<CodeIcon />}>코드</Button>

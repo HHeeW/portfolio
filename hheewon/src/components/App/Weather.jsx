@@ -18,17 +18,14 @@ const Weather = () => {
           <div dangerouslySetInnerHTML={weatherapp()}/>
         </div>
         <div className='AppInfo' data-aos="flip-right">
-          <div>
-            <p>
-              • JS(ES6)<br/>
-              • Cordova<br/>
-              • Open Weather API<br/>
-              • Swiper<br/>
-              • Search<br/>
+          <p>
+            • JS(ES6)<br/>
+            • Cordova<br/>
+            • Open Weather API<br/>
+            • Swiper<br/>
+            • Search<br/>
 
-            </p>
-          </div>
-          
+          </p>
           <div className='BtnBox'>
               <Button variant="contained" href="https://github.com/HHeeW/portfolio/tree/main/hheewon/public/client/App/weathermap01" target="_blank" endIcon={<CodeIcon />}>코드</Button>
           </div>

@@ -8,6 +8,7 @@ import Team from './components/Team/Team';
 import WebDesgin from './components/Web/WebDesgin';
 import Weather from './components/App/Weather'
 import Electric from './components/React/Electric';
+import Golf from './components/ReactNative/Golf';
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
           <WebDesgin/>
           <Weather/>
           <Electric ViewPort={media}/>
+          <Golf ViewPort={media}/>
         </div>
       </div>
     </>

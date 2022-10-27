@@ -1,46 +1,49 @@
-.ShoppingContainer{
+.GolfContainer{
+    background-color: rgba(59, 170, 187, 1);
     min-height: 100vh;
     width: 100%;
-    margin: 10vh auto 0;
 }
-.SHoppingBrick{
+.GolfBrick{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.ShoppingSlider{
-    width: 30%;
+.GolfSlider{
+    width: 25%;
     background-color: rgba(59, 123, 187, 0.5);
     border-radius: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-.ShoppingSwiper{
+.GolfSwiper{
     padding: 30px;
     margin: 0;
 }
-.ShoppingSwiper .swiper-wrapper{
-    height: 65vh;
+.GolfSwiper .swiper{
+    height: 70vh;
 }
-.ShoppingSwiper img{
-    max-height: 100%;
+.GolfSwiper img{
+    height: 70vh;
 }
-.ShoppingInfo{
+.GolfInfo{
     width: 30%;
     font-size: 2rem;
 }
 @media screen and (max-width:500px) {
-    .SHoppingBrick{
+    .GolfBrick{
         flex-direction: column;
     }
-    .ShoppingSlider{
-        width: 80%;
+    .GolfSlider{
+        width: 60%;
         height: 65vh;
         margin: 5vh 0;
     }
-    .ShoppingSwiper .swiper-wrapper{
+    .GolfSwiper .swiper{
         height: 60vh;
     }
-    .ShoppingInfo{
+    .GolfSwiper img{
+        height: 60vh;
+    }
+    .GolfInfo{
         width: 70%;
         display: flex;
         flex-direction: column-reverse;
